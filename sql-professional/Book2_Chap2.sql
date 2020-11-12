@@ -47,7 +47,7 @@ FROM
 WHERE
 	company_name IS NULL;
 	
--- Book 2 Chap 1 Questions
+-- Book 2 Chap 2 Questions
 -- 1. Get a list of sales records where the sale was a lease.
 
 SELECT *
@@ -81,3 +81,4 @@ Where first_name like 'M%' AND last_name like lower('%E');
 SELECT *
 FROM employees
 Where phone like '600%';
+
